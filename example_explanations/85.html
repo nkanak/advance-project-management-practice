@@ -37088,34 +37088,34 @@
 /***/ })
 /******/ ]);
 //# sourceMappingURL=bundle.js.map </script></head><body>
-        <div class="lime top_div" id="top_divZMQE4S2I7TNFWIG"></div>
+        <div class="lime top_div" id="top_divJIXVRD63H5LNMZ4"></div>
         
         <script>
-        var top_div = d3.select('#top_divZMQE4S2I7TNFWIG').classed('lime top_div', true);
+        var top_div = d3.select('#top_divJIXVRD63H5LNMZ4').classed('lime top_div', true);
         
             var pp_div = top_div.append('div')
                                 .classed('lime predict_proba', true);
             var pp_svg = pp_div.append('svg').style('width', '100%');
-            var pp = new lime.PredictProba(pp_svg, ["stevel@apache.org", "ajisakaa", "danielzhou", "gabor.bota"], [0.0841729987532419, 3.7912443909522993e-07, 0.9156245793432061, 0.00020204277911337767]);
+            var pp = new lime.PredictProba(pp_svg, ["stevel@apache.org", "danielzhou", "gabor.bota", "ajisakaa"], [0.0841729987532419, 0.9156245793432061, 0.00020204277911337767, 3.7912443909522993e-07]);
             
         
         var exp_div;
-            var exp = new lime.Explanation(["stevel@apache.org", "ajisakaa", "danielzhou", "gabor.bota"]);
+            var exp = new lime.Explanation(["stevel@apache.org", "danielzhou", "gabor.bota", "ajisakaa"]);
         
                 exp_div = top_div.append('div').classed('lime explanation', true);
-                exp.show([["abfs", 0.3241524489964041], ["new", -0.20942039220872197], ["ad", 0.11683718456206685], ["chang", 0.10773206376472615], ["remov", 0.10376981244503862], ["cod", 0.09600023448099419], ["fix", -0.08455439924964099], ["bug", 0.08270397562376755], ["dependencies", 0.049581191815171906], ["fixes", 0.045306540594813954]], 2, exp_div);
+                exp.show([["abfs", 0.3278681513307388], ["new", -0.21385195005091667], ["chang", 0.1122788679178458], ["ad", 0.11215592943180545], ["remov", 0.10474447054912699], ["cod", 0.0981664201378884], ["fix", -0.08361717821322463], ["bug", 0.08086204553350582], ["dependencies", 0.051193389286626416], ["unnecess", 0.050898049240268015]], 1, exp_div);
                 
                 exp_div = top_div.append('div').classed('lime explanation', true);
-                exp.show([["abfs", -0.23585348705156312], ["new", 0.18889504072295976], ["bug", -0.09841572725948015], ["chang", -0.0909709108717007], ["fix", 0.08535473748859508], ["cod", -0.07827237733076131], ["changes", 0.06419749545288347], ["ad", -0.06318527653990696], ["remov", -0.06311551427712306], ["dependencies", -0.044211006984431304]], 0, exp_div);
+                exp.show([["abfs", -0.24173914257103407], ["new", 0.19037736714387954], ["bug", -0.09717164487455701], ["chang", -0.09653755644916281], ["fix", 0.08503740205677637], ["cod", -0.08476870027481713], ["changes", 0.065887893033602], ["remov", -0.06328467152797479], ["ad", -0.0589564595293182], ["dependencies", -0.040372517213470335]], 0, exp_div);
                 
                 exp_div = top_div.append('div').classed('lime explanation', true);
-                exp.show([["abfs", -0.08032535239727731], ["remov", -0.0512175939053259], ["ad", -0.04728226675496733], ["test", 0.040211449420421964], ["new", 0.027424725532067654], ["changes", -0.023998319301015533], ["chang", -0.018892183696266125], ["unnecess", -0.013872250321010198], ["dependencies", -0.01227800231829835], ["fixes", -0.011493281258804847]], 3, exp_div);
+                exp.show([["abfs", -0.080555056833436], ["remov", -0.05012226911246879], ["ad", -0.04735328983829742], ["test", 0.0425648508439886], ["changes", -0.02780938051927501], ["new", 0.027602743173769394], ["chang", -0.018999250923664186], ["dependencies", -0.017684042680913552], ["unnecess", -0.01594156588523792], ["fixes", -0.015286702642203963]], 2, exp_div);
                 
                 exp_div = top_div.append('div').classed('lime explanation', true);
-                exp.show([["test", -0.014453534497058988], ["abfs", -0.012470504661247205], ["ad", -0.0122661924738705], ["cod", -0.011616202605439503], ["new", -0.011071179059384154], ["remov", 0.004717576474705207], ["chang", -0.004256354494861275], ["bug", 0.002260760094746598], ["fixes", 0.0021865918999552734], ["dependencies", 0.0006707793428086373]], 1, exp_div);
+                exp.show([["test", -0.01208269663024361], ["ad", -0.011229843806401216], ["cod", -0.011166618667634515], ["abfs", -0.010710512052389789], ["new", -0.009763064937048935], ["remov", 0.0037512816296871657], ["chang", -0.0029978983776090184], ["bug", 0.0021277656783086625], ["dependencies", 0.0014641298712081991], ["changes", -0.001100761153677624]], 3, exp_div);
                 
         var raw_div = top_div.append('div');
-            exp.show_raw_text([["abfs", 74, 0.3241524489964041], ["new", 52, -0.20942039220872197], ["new", 98, -0.20942039220872197], ["ad", 2, 0.11683718456206685], ["ad", 49, 0.11683718456206685], ["chang", 84, 0.10773206376472615], ["remov", 18, 0.10376981244503862], ["cod", 61, 0.09600023448099419], ["cod", 80, 0.09600023448099419], ["fix", 94, -0.08455439924964099], ["bug", 5, 0.08270397562376755], ["bug", 90, 0.08270397562376755], ["dependencies", 33, 0.049581191815171906], ["fixes", 9, 0.045306540594813954]], 2, "- ad bug fixes. - remov unnecess dependencies. - ad new test cod changes. abfs: cod chang bug fix new test", raw_div, true);
+            exp.show_raw_text([["abfs", 74, 0.3278681513307388], ["new", 52, -0.21385195005091667], ["new", 98, -0.21385195005091667], ["chang", 84, 0.1122788679178458], ["ad", 2, 0.11215592943180545], ["ad", 49, 0.11215592943180545], ["remov", 18, 0.10474447054912699], ["cod", 61, 0.0981664201378884], ["cod", 80, 0.0981664201378884], ["fix", 94, -0.08361717821322463], ["bug", 5, 0.08086204553350582], ["bug", 90, 0.08086204553350582], ["dependencies", 33, 0.051193389286626416], ["unnecess", 24, 0.050898049240268015]], 1, "- ad bug fixes. - remov unnecess dependencies. - ad new test cod changes. abfs: cod chang bug fix new test", raw_div, true);
             
         </script>
         </body></html>
