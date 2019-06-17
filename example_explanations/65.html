@@ -37088,34 +37088,34 @@
 /***/ })
 /******/ ]);
 //# sourceMappingURL=bundle.js.map </script></head><body>
-        <div class="lime top_div" id="top_divELLBWSDFR1CINCZ"></div>
+        <div class="lime top_div" id="top_divFLXTJQFQEPW4T6V"></div>
         
         <script>
-        var top_div = d3.select('#top_divELLBWSDFR1CINCZ').classed('lime top_div', true);
+        var top_div = d3.select('#top_divFLXTJQFQEPW4T6V').classed('lime top_div', true);
         
             var pp_div = top_div.append('div')
                                 .classed('lime predict_proba', true);
             var pp_svg = pp_div.append('svg').style('width', '100%');
-            var pp = new lime.PredictProba(pp_svg, ["stevel@apache.org", "danielzhou", "gabor.bota", "ajisakaa"], [0.9489585105715732, 0.036715674152915045, 0.014325725351766528, 8.992373680698342e-08]);
+            var pp = new lime.PredictProba(pp_svg, ["johnny", "richard", "jane", "john"], [0.036715674152915045, 8.992373680698342e-08, 0.014325725351766528, 0.9489585105715732]);
             
         
         var exp_div;
-            var exp = new lime.Explanation(["stevel@apache.org", "danielzhou", "gabor.bota", "ajisakaa"]);
+            var exp = new lime.Explanation(["johnny", "richard", "jane", "john"]);
         
                 exp_div = top_div.append('div').classed('lime explanation', true);
-                exp.show([["io", 0.379963271249048], ["getfilestatus", 0.3270428237261567], ["s3", -0.31280028961559336], ["propos", 0.17347658588516326], ["downgrad", 0.1720962844889549], ["wrong", 0.1517706548423556], ["fast", -0.10000088931864859], ["way", -0.09500441028193092], ["isdirectory", -0.08793417155144546], ["warn", -0.06581708102482928]], 0, exp_div);
+                exp.show([["io", 0.3608824352856775], ["getfilestatus", 0.325904626529972], ["s3", -0.3118688757618559], ["propos", 0.16098757029749325], ["downgrad", 0.155598650205027], ["wrong", 0.1259142562030652], ["fast", -0.11840649610195825], ["way", -0.1152085711530107], ["npe", 0.11432665313892688], ["warn", -0.0950289808687213]], 3, exp_div);
                 
                 exp_div = top_div.append('div').classed('lime explanation', true);
-                exp.show([["io", -0.3753142071257369], ["list", -0.22415808808215135], ["fast", 0.11620232272230163], ["way", 0.1106644083694845], ["glob", 0.09597787594416127], ["path", 0.09518228608703143], ["npe", -0.09457857660296781], ["continu", 0.0910789561031465], ["log", -0.07418682634031926], ["wrong", -0.053861812535995895]], 1, exp_div);
+                exp.show([["io", -0.39162740763531784], ["list", -0.2402865501941084], ["npe", -0.10843876531462267], ["way", 0.09823442765788686], ["glob", 0.0940237825623915], ["fast", 0.09235917926344403], ["path", 0.08902866467783992], ["continu", 0.08668141922059408], ["log", -0.08093733248794271], ["includ", 0.07542933923302007]], 0, exp_div);
                 
                 exp_div = top_div.append('div').classed('lime explanation', true);
-                exp.show([["s3", 0.34792349679880413], ["getfilestatus", -0.2789195212035665], ["downgrad", -0.1591818344501981], ["list", 0.15108436615133086], ["path", -0.14576841696323867], ["catch", -0.1258650162415761], ["long", -0.12154660788183201], ["propos", -0.11206531355190986], ["warn", 0.07622901399650367], ["isdirectory", 0.06616306652309747]], 2, exp_div);
+                exp.show([["s3", 0.33957489888105336], ["getfilestatus", -0.28064357161971054], ["list", 0.16637897599640927], ["downgrad", -0.13392409335550046], ["path", -0.11297670381505234], ["catch", -0.11063180184004022], ["long", -0.110355364397593], ["propos", -0.10273285125425881], ["glob", -0.09853651154415066], ["warn", 0.09822235452825616]], 2, exp_div);
                 
                 exp_div = top_div.append('div').classed('lime explanation', true);
-                exp.show([["path", -0.009985361032565481], ["io", -0.008579075850134125], ["filesystem", -0.006874557915888434], ["glob", 0.00483779036399722], ["log", -0.0041000980037071665], ["fil", -0.0034952238782843324], ["npe", -0.0028172959970001544], ["fail", -0.0025526366852540385], ["debug", -0.0024511200612574815], ["way", -0.0022630097989921345]], 3, exp_div);
+                exp.show([["path", -0.010028649719273761], ["io", -0.007902257293288837], ["filesystem", -0.006720897080308516], ["glob", 0.00571983337608562], ["log", -0.005583112709172196], ["npe", -0.003266909780151698], ["catch", -0.003029242882868339], ["fil", -0.0026575933370562342], ["s3", -0.002598602435583992], ["trig", -0.0025379368403282317]], 1, exp_div);
                 
         var raw_div = top_div.append('div');
-            exp.show_raw_text([["io", 131, 0.379963271249048], ["io", 307, 0.379963271249048], ["getfilestatus", 57, 0.3270428237261567], ["getfilestatus", 106, 0.3270428237261567], ["getfilestatus", 203, 0.3270428237261567], ["getfilestatus", 323, 0.3270428237261567], ["s3", 147, -0.31280028961559336], ["s3", 255, -0.31280028961559336], ["s3", 412, -0.31280028961559336], ["propos", 294, 0.17347658588516326], ["downgrad", 134, 0.1720962844889549], ["downgrad", 359, 0.1720962844889549], ["wrong", 244, 0.1517706548423556], ["fast", 395, -0.10000088931864859], ["way", 102, -0.09500441028193092], ["isdirectory", 77, -0.08793417155144546], ["isdirectory", 223, -0.08793417155144546], ["warn", 368, -0.06581708102482928]], 0, "filesystem glob liststatus(path) then, on el returned, {{getfilestatus(path).isdirectory()}} see dir. way getfilestatus() wrapped, io downgrad nul s3, path entry deleted, list may includ fil long there, getfilestatus(path),isdirectory trig npe wrong glob s3 inconsistent, least fail grac here. propos # log io rais globber.getfilestatus @ debug # catch fnfes downgrad warn # continu altern fail fast fnfe, traum s3 list inconsist rais npe glob", raw_div, true);
+            exp.show_raw_text([["io", 131, 0.3608824352856775], ["io", 307, 0.3608824352856775], ["getfilestatus", 57, 0.325904626529972], ["getfilestatus", 106, 0.325904626529972], ["getfilestatus", 203, 0.325904626529972], ["getfilestatus", 323, 0.325904626529972], ["s3", 147, -0.3118688757618559], ["s3", 255, -0.3118688757618559], ["s3", 412, -0.3118688757618559], ["propos", 294, 0.16098757029749325], ["downgrad", 134, 0.155598650205027], ["downgrad", 359, 0.155598650205027], ["wrong", 244, 0.1259142562030652], ["fast", 395, -0.11840649610195825], ["way", 102, -0.1152085711530107], ["npe", 240, 0.11432665313892688], ["npe", 435, 0.11432665313892688], ["warn", 368, -0.0950289808687213]], 3, "filesystem glob liststatus(path) then, on el returned, {{getfilestatus(path).isdirectory()}} see dir. way getfilestatus() wrapped, io downgrad nul s3, path entry deleted, list may includ fil long there, getfilestatus(path),isdirectory trig npe wrong glob s3 inconsistent, least fail grac here. propos # log io rais globber.getfilestatus @ debug # catch fnfes downgrad warn # continu altern fail fast fnfe, traum s3 list inconsist rais npe glob", raw_div, true);
             
         </script>
         </body></html>

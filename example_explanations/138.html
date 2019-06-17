@@ -37088,34 +37088,34 @@
 /***/ })
 /******/ ]);
 //# sourceMappingURL=bundle.js.map </script></head><body>
-        <div class="lime top_div" id="top_divJOJOJYL2TEX7TSX"></div>
+        <div class="lime top_div" id="top_div17OQJU3EO5NVTC6"></div>
         
         <script>
-        var top_div = d3.select('#top_divJOJOJYL2TEX7TSX').classed('lime top_div', true);
+        var top_div = d3.select('#top_div17OQJU3EO5NVTC6').classed('lime top_div', true);
         
             var pp_div = top_div.append('div')
                                 .classed('lime predict_proba', true);
             var pp_svg = pp_div.append('svg').style('width', '100%');
-            var pp = new lime.PredictProba(pp_svg, ["stevel@apache.org", "danielzhou", "gabor.bota", "ajisakaa"], [0.9629659993803474, 4.1015141511068845e-08, 7.618609371271325e-11, 0.03703395952831505]);
+            var pp = new lime.PredictProba(pp_svg, ["johnny", "richard", "jane", "john"], [4.1015141511068845e-08, 0.03703395952831505, 7.618609371271325e-11, 0.9629659993803474]);
             
         
         var exp_div;
-            var exp = new lime.Explanation(["stevel@apache.org", "danielzhou", "gabor.bota", "ajisakaa"]);
+            var exp = new lime.Explanation(["johnny", "richard", "jane", "john"]);
         
                 exp_div = top_div.append('div').classed('lime explanation', true);
-                exp.show([["hadoop", 0.397329321564442], ["adl", 0.23532459068307188], ["maven", -0.2267084661380115], ["doc", 0.2232857431509495], ["azure", 0.17459525472863488], ["tools", -0.15679230195734534], ["error", -0.14158858648448572], ["troubleshoot", 0.14138164028112354], ["plugin", -0.13564688241690187], ["project", -0.12421021565781966]], 0, exp_div);
+                exp.show([["hadoop", 0.4150826700586031], ["maven", -0.23097422723798872], ["adl", 0.21780423069338614], ["doc", 0.2170187208407133], ["azure", 0.176316604405533], ["tools", -0.17536665875807605], ["troubleshoot", 0.14162071653693575], ["plugin", -0.12249350311992123], ["error", -0.11798283380082035], ["project", -0.11793823023713557]], 3, exp_div);
                 
                 exp_div = top_div.append('div').classed('lime explanation', true);
-                exp.show([["hadoop", -0.3669548787583788], ["maven", 0.24130106262558773], ["adl", -0.2132598741101433], ["doc", -0.20871653330005077], ["azure", -0.18402732571830452], ["tools", 0.1621377066254131], ["error", 0.1521442691063357], ["plugin", 0.14470665251358733], ["troubleshoot", -0.13772161160086316], ["project", 0.13094904007508043]], 3, exp_div);
+                exp.show([["hadoop", -0.37659388253361786], ["maven", 0.24839850768056915], ["azure", -0.1947164656225907], ["doc", -0.19358800088223627], ["adl", -0.18922501355210886], ["tools", 0.18203696392737473], ["troubleshoot", -0.13594455113710574], ["plugin", 0.13559657944569226], ["error", 0.13095019375769554], ["project", 0.12842159344494297]], 1, exp_div);
                 
                 exp_div = top_div.append('div').classed('lime explanation', true);
-                exp.show([["hadoop", -0.02858140658321857], ["org", -0.021785501186396664], ["er", 0.018967463815805722], ["apache", -0.01699197625759357], ["adl", -0.015728577121775944], ["azure", 0.015266741159960944], ["doc", -0.012281898752735871], ["error", -0.011222199580585502], ["build", -0.009617970165476063], ["trunk", -0.009039166687203693]], 1, exp_div);
+                exp.show([["hadoop", -0.03835827996302807], ["er", 0.027087810985886734], ["org", -0.02509381881006929], ["azure", 0.024742934474215033], ["apache", -0.0221101596959655], ["adl", -0.0200350240459325], ["doc", -0.01907285011597248], ["error", -0.01578660080303967], ["build", -0.013998349411995648], ["maven", -0.01272952240160643]], 0, exp_div);
                 
                 exp_div = top_div.append('div').classed('lime explanation', true);
-                exp.show([["adl", -0.003946357302838064], ["azure", -0.003858057378930038], ["troubleshoot", -0.003256591486539419], ["execut", -0.0031021487239149695], ["maven", -0.002927814036189817], ["project", -0.0027946290748831655], ["branch", -0.002701765703880477], ["default", -0.002596272264836092], ["lin", -0.00239070116742521], ["error", 0.002274492650830531]], 2, exp_div);
+                exp.show([["adl", -0.005348330023101284], ["azure", -0.005187887307011477], ["troubleshoot", -0.004676003933324084], ["build", -0.0044006623994173625], ["execut", -0.004163742098077196], ["error", 0.0038804217236002993], ["maven", -0.0035459164096321833], ["src", -0.003310345288235849], ["toc", -0.0030549700801270926], ["model", 0.003034553923685231]], 2, exp_div);
                 
         var raw_div = top_div.append('div');
-            exp.show_raw_text([["hadoop", 28, 0.397329321564442], ["hadoop", 147, 0.397329321564442], ["hadoop", 179, 0.397329321564442], ["hadoop", 192, 0.397329321564442], ["hadoop", 205, 0.397329321564442], ["adl", 7, 0.23532459068307188], ["adl", 362, 0.23532459068307188], ["maven", 84, -0.2267084661380115], ["maven", 98, -0.2267084661380115], ["doc", 24, 0.2232857431509495], ["doc", 379, 0.2232857431509495], ["azure", 154, 0.17459525472863488], ["azure", 212, 0.17459525472863488], ["tools", 199, -0.15679230195734534], ["error", 49, -0.14158858648448572], ["troubleshoot", 11, 0.14138164028112354], ["troubleshoot", 366, 0.14138164028112354], ["plugin", 109, -0.13564688241690187], ["project", 139, -0.12421021565781966]], 0, "toc er adl troubleshoot doc hadoop-15090 {code} [error] fail execut goal org.apache.maven.plugins:maven-site-plugin:3.5:site (default-cli) project hadoop-azure-datalake: er pars 'hadoop-trunk/hadoop-tools/hadoop-azure-datalake/src/site/markdown/troubleshooting_adl.md': lin [-1] er pars model: un execut macro document: toc -| [help 1] {code} branch-2 sit build adl troubleshoot doc ad", raw_div, true);
+            exp.show_raw_text([["hadoop", 28, 0.4150826700586031], ["hadoop", 147, 0.4150826700586031], ["hadoop", 179, 0.4150826700586031], ["hadoop", 192, 0.4150826700586031], ["hadoop", 205, 0.4150826700586031], ["maven", 84, -0.23097422723798872], ["maven", 98, -0.23097422723798872], ["adl", 7, 0.21780423069338614], ["adl", 362, 0.21780423069338614], ["doc", 24, 0.2170187208407133], ["doc", 379, 0.2170187208407133], ["azure", 154, 0.176316604405533], ["azure", 212, 0.176316604405533], ["tools", 199, -0.17536665875807605], ["troubleshoot", 11, 0.14162071653693575], ["troubleshoot", 366, 0.14162071653693575], ["plugin", 109, -0.12249350311992123], ["error", 49, -0.11798283380082035], ["project", 139, -0.11793823023713557]], 3, "toc er adl troubleshoot doc hadoop-15090 {code} [error] fail execut goal org.apache.maven.plugins:maven-site-plugin:3.5:site (default-cli) project hadoop-azure-datalake: er pars 'hadoop-trunk/hadoop-tools/hadoop-azure-datalake/src/site/markdown/troubleshooting_adl.md': lin [-1] er pars model: un execut macro document: toc -| [help 1] {code} branch-2 sit build adl troubleshoot doc ad", raw_div, true);
             
         </script>
         </body></html>
