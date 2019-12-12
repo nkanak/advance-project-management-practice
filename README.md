@@ -1,5 +1,6 @@
 # Advance Project Management Practice
 This repository has code for the paper [*Combining Machine Learning and Operations Research methods to advance the Project Management Practice*](https://www.researchgate.net/publication/337899569_Combining_Machine_Learning_and_Operations_Research_Methods_to_Advance_the_Project_Management_Practice). 
+
 [Chapter page](https://link.springer.com/chapter/10.1007%2F978-3-030-37584-3_7)
 
 
